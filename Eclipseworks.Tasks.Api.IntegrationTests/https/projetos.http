@@ -1,0 +1,18 @@
+@Eclipseworks.Tasks.Api_HostAddress = http://localhost:5000
+
+POST {{Eclipseworks.Tasks.Api_HostAddress}}/projects
+Content-Type: application/json
+
+{
+    "name": "Project One"
+}
+
+####
+
+GET {{Eclipseworks.Tasks.Api_HostAddress}}/projects
+
+####
+
+DELETE {{Eclipseworks.Tasks.Api_HostAddress}}/projects/41a5187c-a8c5-4aee-2cbe-08dc54b1be34
+
+####

@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eclipseworks.Tasks.Domain", "Eclipseworks.Tasks.Domain\Eclipseworks.Tasks.Domain.csproj", "{488DC791-F770-42EA-AC44-659075339B7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{991763DC-62A9-42F8-AAEB-3E6C14ECE8C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{76F9EF63-5020-44DE-A4EF-175BF610584C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eclipseworks.Tasks.Domain.UnitTests", "Eclipseworks.Tasks.Domain.Test\Eclipseworks.Tasks.Domain.UnitTests.csproj", "{2C09F98B-E633-4D3B-B0FC-D864E7124043}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BB0031C1-B669-46C6-BDB3-754E5E1FE716}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eclipseworks.Tasks.Application", "Eclipseworks.Tasks.Application\Eclipseworks.Tasks.Application.csproj", "{FF3039FD-AB98-45B6-8854-A3F3705BDF3B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eclipseworks.Tasks.Application.UnitTests", "Eclipseworks.Tasks.Application.UnitTests\Eclipseworks.Tasks.Application.UnitTests.csproj", "{8D518A8C-4D4E-4FB2-8DAF-EAE739913EAA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eclipseworks.Tasks.Api", "Eclipseworks.Tasks.Api\Eclipseworks.Tasks.Api.csproj", "{86DC72D9-EDF9-437C-BD92-389E0E031866}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eclipseworks.Tasks.Infrastructure", "Eclipseworks.Tasks.Infrastructure\Eclipseworks.Tasks.Infrastructure.csproj", "{75BB7E6B-6792-4A12-8074-39E831CFE466}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "devops", "devops", "{20757270-06E4-4DBE-8C15-48BEACD6594F}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yaml = docker-compose.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eclipseworks.Tasks.Api.IntegrationTests", "Eclipseworks.Tasks.Api.IntegrationTests\Eclipseworks.Tasks.Api.IntegrationTests.csproj", "{DD70FC48-29EB-4F0B-A27D-D05F2B89DFA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{488DC791-F770-42EA-AC44-659075339B7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{488DC791-F770-42EA-AC44-659075339B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{488DC791-F770-42EA-AC44-659075339B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{488DC791-F770-42EA-AC44-659075339B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C09F98B-E633-4D3B-B0FC-D864E7124043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C09F98B-E633-4D3B-B0FC-D864E7124043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C09F98B-E633-4D3B-B0FC-D864E7124043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C09F98B-E633-4D3B-B0FC-D864E7124043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF3039FD-AB98-45B6-8854-A3F3705BDF3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF3039FD-AB98-45B6-8854-A3F3705BDF3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF3039FD-AB98-45B6-8854-A3F3705BDF3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF3039FD-AB98-45B6-8854-A3F3705BDF3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D518A8C-4D4E-4FB2-8DAF-EAE739913EAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D518A8C-4D4E-4FB2-8DAF-EAE739913EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D518A8C-4D4E-4FB2-8DAF-EAE739913EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D518A8C-4D4E-4FB2-8DAF-EAE739913EAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86DC72D9-EDF9-437C-BD92-389E0E031866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86DC72D9-EDF9-437C-BD92-389E0E031866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86DC72D9-EDF9-437C-BD92-389E0E031866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86DC72D9-EDF9-437C-BD92-389E0E031866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75BB7E6B-6792-4A12-8074-39E831CFE466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75BB7E6B-6792-4A12-8074-39E831CFE466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75BB7E6B-6792-4A12-8074-39E831CFE466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75BB7E6B-6792-4A12-8074-39E831CFE466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD70FC48-29EB-4F0B-A27D-D05F2B89DFA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD70FC48-29EB-4F0B-A27D-D05F2B89DFA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD70FC48-29EB-4F0B-A27D-D05F2B89DFA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD70FC48-29EB-4F0B-A27D-D05F2B89DFA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{488DC791-F770-42EA-AC44-659075339B7D} = {991763DC-62A9-42F8-AAEB-3E6C14ECE8C9}
+		{2C09F98B-E633-4D3B-B0FC-D864E7124043} = {76F9EF63-5020-44DE-A4EF-175BF610584C}
+		{FF3039FD-AB98-45B6-8854-A3F3705BDF3B} = {991763DC-62A9-42F8-AAEB-3E6C14ECE8C9}
+		{8D518A8C-4D4E-4FB2-8DAF-EAE739913EAA} = {76F9EF63-5020-44DE-A4EF-175BF610584C}
+		{86DC72D9-EDF9-437C-BD92-389E0E031866} = {991763DC-62A9-42F8-AAEB-3E6C14ECE8C9}
+		{75BB7E6B-6792-4A12-8074-39E831CFE466} = {991763DC-62A9-42F8-AAEB-3E6C14ECE8C9}
+		{DD70FC48-29EB-4F0B-A27D-D05F2B89DFA0} = {76F9EF63-5020-44DE-A4EF-175BF610584C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE3B6028-CA24-4251-ADBD-B03CCD1EAE97}
+	EndGlobalSection
+EndGlobal
